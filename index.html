@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML5 Game</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <canvas id="canvas"></canvas>
+    <div class="ui-block">
+      <div class="friends block">
+        <button id="prev-btn" class="friends__btn friends__btn--left block" type="button" aria-label="Назад">
+          <img class="block__img" src="img/arrow-left.png" alt="Стрелочка Назад">
+        </button>
+        <div class="friends__list-container" id="friends-list-container">
+        <ul id="friends-list" class="friends__list">
+          <li class="friends__item block">
+            <img class="block__img" src="img/empty-block.png" alt="Фон блока">
+            <div class="user block">
+              <button class="user__btn block" type="button" aria-label="Добавить">
+                <img class="block__img" src="img/plus-icon.png" alt="Добавить">
+              </button>
+              <img class="block__img" src="img/friend-icon.png" alt="Иконка пользователя">
+            </div>
+          </li>
+          <li class="friends__item block">
+            <img class="block__img" src="img/empty-block.png" alt="Фон блока">
+            <div class="user block">
+              <img class="block__img" src="img/friend-icon.png" alt="Иконка пользователя">
+            </div>
+          </li>
+          <li class="friends__item block">
+            <img class="block__img" src="img/empty-block.png" alt="Фон блока">
+            <div class="user block">
+              <img class="block__img" src="img/friend-icon.png" alt="Иконка пользователя">
+            </div>
+          </li>
+          <li class="friends__item block">
+            <img class="block__img" src="img/empty-block.png" alt="Фон блока">
+            <div class="user block">
+              <img class="block__img" src="img/friend-icon.png" alt="Иконка пользователя">
+            </div>
+          </li>
+          <li class="friends__item block">
+            <img class="block__img" src="img/empty-block.png" alt="Фон блока">
+            <div class="user block">
+              <img class="block__img" src="img/friend-icon.png" alt="Иконка пользователя">
+            </div>
+          </li>
+          <li class="friends__item block">
+            <img class="block__img" src="img/empty-block.png" alt="Фон блока">
+            <div class="user block">
+              <img class="block__img" src="img/friend-icon.png" alt="Иконка пользователя">
+            </div>
+          </li>
+          <li class="friends__item block">
+            <img class="block__img" src="img/empty-block.png" alt="Фон блока">
+          </li>
+          <li class="friends__item block">
+            <img class="block__img" src="img/empty-block.png" alt="Фон блока">
+          </li>
+          <li class="friends__item block">
+            <img class="block__img" src="img/empty-block.png" alt="Фон блока">
+          </li>
+          <li class="friends__item block">
+            <img class="block__img" src="img/empty-block.png" alt="Фон блока">
+          </li>
+          <li class="friends__item block">
+            <img class="block__img" src="img/empty-block.png" alt="Фон блока">
+          </li>
+          <li class="friends__item block">
+            <img class="block__img" src="img/empty-block.png" alt="Фон блока">
+          </li>
+          <li class="friends__item block">
+            <img class="block__img" src="img/empty-block.png" alt="Фон блока">
+          </li>
+          <li class="friends__item block">
+            <img class="block__img" src="img/empty-block.png" alt="Фон блока">
+          </li>
+          <li class="friends__item block">
+            <img class="block__img" src="img/empty-block.png" alt="Фон блока">
+          </li>
+          <li class="friends__item block">
+            <img class="block__img" src="img/empty-block.png" alt="Фон блока">
+          </li>
+        </ul>
+        </div>
+        <button id="next-btn" class="friends__btn friends__btn--right block" type="button" aria-label="Вперед">
+          <img class="block__img" src="img/arrow-right.png" alt="Стрелочка Вперед">
+        </button>
+        <img class="block__img" src="img/navigation.png" alt="Фон навигации">
+      </div>
+      <button class="chat-btn block" type="button" aria-label="Чат">
+        <img class="block__img" src="img/chat-btn.png" alt="Кнопка чата">
+      </button>
+      <button class="move-btn block" id="move-btn" type="button" aria-label="В универ">
+        <img class="block__img" src="img/move-btn.png" alt="Кнопка В универ">
+      </button>
+      <button class="mail-btn block" type="button" aria-label="Почта">
+        <img class="block__img" src="img/mail-btn.png" alt="Кнопка почты">
+      </button>
+      <button class="rating-btn block" type="button" aria-label="Рейтинг">
+        <img class="block__img" src="img/rating-btn.png" alt="Кнопка рейтинга">
+      </button>
+    </div>
+  </div>
+  <script src="js/scroll-on-click.js"></script>
+  <script src="js/waypoints.js"></script>
+  <script src="js/Player.js"></script>
+  <script src="js/main.js"></script>
+</body>
+</html>
