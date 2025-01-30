@@ -287,7 +287,6 @@ body {
   width: 5px;
 }
 
-/* Track */
 .rating__list::-webkit-scrollbar-track {
   background: #50aec5;
   border-radius: 10px;
